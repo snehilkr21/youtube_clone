@@ -25,7 +25,7 @@ const LiveChat = () => {
   const onClickSubmitButton = (e) =>{
      e.preventDefault()
      dispatch(addMessage({
-        name:"Snehil",
+        name:"New User",
         message:inputData
      }))
      setInputData("")
