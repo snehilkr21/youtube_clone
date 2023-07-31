@@ -15,7 +15,7 @@ const LiveChat = () => {
              name: generateRandomName(),
              message:`${genrateRandomMessage(OFFSET_LIVE_CHAT)} 🚀`
          }))
-      },2000)
+      },500)
 
       return ()=>{
         clearInterval(i)
